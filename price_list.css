@@ -1,4 +1,4 @@
-.icon_plus_base{
+.icon_plus_base::after{
     color: #444;
     background: none;
     width: 39px;
