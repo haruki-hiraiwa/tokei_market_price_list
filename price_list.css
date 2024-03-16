@@ -1,0 +1,12 @@
+.icon_plus_base{
+    color: #444;
+    background: none;
+    width: 39px;
+    height: 39px;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    right: 18px;
+    font-weight: bold;
+    font-size: 45px;
+}
