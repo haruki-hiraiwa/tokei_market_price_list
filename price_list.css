@@ -1,4 +1,10 @@
-.icon_plus_base::after{
+.contentsBox02_201901 {
+    margin-bottom: 40px !important;
+    max-width: 640px;
+    overflow: hidden;
+}
+
+.icon_plus_base{
     color: #444;
     background: none;
     width: 39px;
@@ -9,4 +15,137 @@
     right: 18px;
     font-weight: bold;
     font-size: 45px;
+}
+
+.contentsBox02_201901 h3{
+    background: #eaeaea;
+    box-shadow: -1px 1px 0 #e2e1e2;
+    padding: 14px 0 12px 20px;
+    position: relative;
+    line-height: 1.4;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #a9a6a7;
+}
+
+.contentsBox02_201901 .icon_plus_base {
+    color: #444;
+    background: none;
+    width: 39px;
+    height: 39px;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    right: 18px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.contentsBox02_201901 .icon_plus_base:before {
+    content: "";
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0.05em;
+    height: 0.5em;
+}
+
+
+.contentsBox02_201901 .icon_plus_base:after {
+    content: "";
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0.5em;
+    height: 0.045em;
+}
+
+.contentsBox02_201901 .purchase-price {
+    margin-bottom: 40px;
+}
+
+.purchase-price {
+    position: relative;
+}
+
+.table-three {
+    border-top: 1px solid #c9c9c9 !important;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.contentsBox02_201901 .purchase-price .purchase-items table th {
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #c9c9c9;
+    box-shadow: 0 -1px 0 #fff inset;
+    padding: 9px 0;
+}
+
+.contentsBox02_201901 .purchase-price .purchase-items table td.item_image {
+    width: 152px;
+    padding: 8px 5px 8px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.contentsBox02_201901 .purchase-price .purchase-items table td {
+    padding: 10px 5px;
+    font-size: 22px;
+    line-height: 30px;
+    border: none;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.table-three .name-three {
+    text-align: left;
+}
+
+.table-three .name-three a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.td-three-price {
+    text-align: center !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    padding: 10px 0 8px 10px !important;
+}
+
+.p-three {
+    text-align: center;
+    margin: 0 5px 10px 0 !important;
+}
+
+.contentsBox02_201901 .purchase-price .purchase-items table td.item_image img {
+    width: 147px;
+}
+
+.contentsBox02_201901 .purchase-price .purchase-items table td.item_image img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 137px;
+    margin-left: 0;
+}
+
+.image-three {
+    border-bottom: 1px solid #c9c9c9 !important;
 }
